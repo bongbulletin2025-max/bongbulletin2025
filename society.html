@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Society — NewsLab Journal</title>
+<link rel="stylesheet" href="style.css">
+<body>
+<header class="header">
+  <div class="container">
+    <div class="brand">
+      <div class="logo">NL</div>
+      <div>
+        <h1>NewsLab Journal</h1>
+        <p class="meta">Student Production Portfolio — Sample Website</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="national.html">National</a>
+      <a href="society.html" class="active">Society</a>
+      <a href="sports.html">Sports</a>
+      <a href="entertainment.html">Entertainment</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container wrap">
+    <span class="badge">Society</span>
+    <h2>Health, Education & Data</h2>
+    <p>Community issues and a data-driven report with visualization.</p>
+  </div>
+</section>
+
+<main class="container">
+  <section class="article">
+    <h2>Rise in Dengue Cases Alarms Kolkata Residents</h2>
+    <p class="byline"><b>By:</b> ________ · <b>Date:</b> ________ · <b>Place:</b> Kolkata</p>
+    <p>Kolkata is witnessing a surge in dengue cases this monsoon, with over 2,500 confirmed in the past month, according to the State Health Department. Hospitals report pressure on bed capacity as cases climb in North Kolkata, Behala, and Salt Lake.</p>
+    <p>Civic bodies began special drives to clean drains, spray repellents, and run awareness campaigns. Doctors urged early diagnosis and advised eliminating stagnant water to curb Aedes aegypti breeding.</p>
+  </section>
+
+  <hr class="sep">
+
+  <section class="article">
+    <h2>Massive Drop in Student Attendance Raises Concerns in West Bengal Schools</h2>
+    <p class="byline"><b>By:</b> ________ · <b>Date:</b> ________ · <b>Place:</b> ________</p>
+    <p>State surveys show attendance in government schools has fallen from 85% in 2019 to 63% in 2025. Causes include pandemic after-effects, child labour, economic stress, and online distractions.</p>
+    <p>The government launched a “Back to School” drive with free meals, textbooks, uniforms, and door-to-door outreach. NGOs provide evening tuitions and digital access, yet infrastructure gaps and teacher shortages persist.</p>
+  </section>
+
+  <hr class="sep">
+
+  <section class="article">
+    <h2>Sharp Rise in Dengue Cases Across West Bengal: Data Reveals Concerning Trend</h2>
+    <p class="byline"><b>By:</b> ________ · <b>Date:</b> ________ · <b>Place:</b> Kolkata, West Bengal</p>
+    <p>State Health Department figures indicate 48,732 dengue cases between January and August 2025, a 32% rise over 2024. Kolkata leads with 15,200 cases, followed by North 24 Parganas (8,450), Howrah (6,320), and Hooghly (4,700). Mortality has climbed to 68 recorded deaths.</p>
+    <p>The surge began with early monsoon rains: January–March 3,210; April–May 5,980; June 9,450; July 14,890; August (till 10th) 15,202. Experts cite stagnant water, poor drainage, and prolonged humidity as key drivers.</p>
+
+    <div class="chart">
+      <h3>Monthly Dengue Cases (2025)</h3>
+      <!-- Accessible inline SVG bar chart -->
+      <svg viewBox="0 0 600 220" role="img" aria-label="Monthly dengue cases bar chart">
+        <desc>Bars show cases rising from Jan–Mar to August.</desc>
+        <line x1="50" y1="10" x2="50" y2="190" stroke="#94a3b8" />
+        <line x1="50" y1="190" x2="580" y2="190" stroke="#94a3b8" />
+        <!-- values: 3210, 5980, 9450, 14890, 15202 (scaled to max 160px height) -->
+        <rect x="80"  y="157.3" width="60" height="32.7"  fill="#0f172a"></rect>
+        <rect x="170" y="127.1" width="60" height="62.9"  fill="#334155"></rect>
+        <rect x="260" y="90.5"  width="60" height="99.5"  fill="#475569"></rect>
+        <rect x="350" y="32.8"  width="60" height="157.2" fill="#64748b"></rect>
+        <rect x="440" y="30.0"  width="60" height="160.0" fill="#94a3b8"></rect>
+        <text x="110" y="205" font-size="12" text-anchor="middle">Jan–Mar</text>
+        <text x="200" y="205" font-size="12" text-anchor="middle">Apr–May</text>
+        <text x="290" y="205" font-size="12" text-anchor="middle">June</text>
+        <text x="380" y="205" font-size="12" text-anchor="middle">July</text>
+        <text x="470" y="205" font-size="12" text-anchor="middle">Aug</text>
+      </svg>
+    </div>
+
+    <p>Authorities have deployed 3,000 health workers for door-to-door awareness, increased fogging, and mandated fines for properties with stagnant water. Public participation remains crucial for lasting control.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <small>© 2025 NewsLab Journal • Replace with your own details on the front page.</small>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
